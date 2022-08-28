@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/popupcopyLinearLayout1">
+
+	<Button
+		android:textColor="#FFFC722B"
+		android:background="#00000000"
+		android:textSize="14sp"
+		android:paddingBottom="3dp"
+		android:layout_width="30dp"
+		android:layout_height="35dp"
+		android:text="✘"
+		android:id="@+id/popupcopyButton1"
+		android:paddingLeft="2dp"/>
+
+	<Button
+		android:textColor="#FFFC722B"
+		android:layout_width="30dp"
+		android:layout_height="35dp"
+		android:text="&lt;"
+		android:id="@+id/popupcopyButton2"
+		android:textSize="18sp"
+		android:paddingBottom="1dp"
+		android:background="#00000000"/>
+
+	<Button
+		android:textColor="#FFFC722B"
+		android:layout_width="30dp"
+		android:layout_height="35dp"
+		android:text="&gt;"
+		android:id="@+id/popupcopyButton3"
+		android:background="#00000000"
+		android:textSize="18sp"
+		android:paddingBottom="1dp"/>
+
+	<Button
+		android:layout_width="30dp"
+		android:layout_height="35dp"
+		android:text="c"
+		android:id="@+id/popupcopyButton4"
+		android:textSize="15sp"
+		android:background="#00000000"
+		android:paddingRight="2dp"
+		android:textColor="#FFFC722B"/>
+
+</LinearLayout>
+

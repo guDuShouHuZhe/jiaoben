@@ -1,0 +1,49 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:id="@+id/setc4sv">
+
+    <LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TextView 
+            
+            android:text="使用帮助"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+        </TextView>
+        <TextView
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   本软件仅供学习参考,不作商业用途，请勿传播。
+            如有造成任何法律纠纷，本软件概不负责。
+            \n\n使用方式:
+            \n1.  x 退出键。
+            \n2. ▽运行键。
+            \n3. ‖暂停键。
+            \n4. □菜单键。
+            \n5. ◎移动键红色为取消隐藏。
+            \n6. ∧返回键结束子线程
+            \n\n注意事项:
+            \n1.  软件在运行时尽量设置为隐藏模式，以免造成错误识别。
+            \n2.  唤出菜单时要先暂停软件运行。
+            \n3.  开启监听时将屏蔽复制popup弹窗
+            \n4.  设置开机启动时，某些手机需要手动打开自动启动和允许后台弹出界面权限，否则可能会被系统拦截。
+            \n5.  如有崩溃或无反应请尝试重启。
+            \n6.  窗口3(style)输入框参数类型，0黑白模式，1加权模式，单色模式，大于2时不做处理
+			\n7.  如遇到某些应用无法显示悬浮窗，请关闭安全中心支付环境监测。
+            ">
+
+        </TextView>
+    </LinearLayout>
+</ScrollView>

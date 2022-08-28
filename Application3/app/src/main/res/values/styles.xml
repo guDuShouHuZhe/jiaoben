@@ -1,0 +1,22 @@
+
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base"/>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--overlap anchor重叠锚 设置menu重叠actionbar为假-->
+        <item name="overlapAnchor">false</item>item>
+        <!--<item  name="android:windowFullscreen">true</item>-->   
+	</style>
+  
+    <!--<style  name="setting_spinner" parent="@android:style/Widget.TextView.SpinnerItem"> 
+        <item name="android:textSize">17sp</item>
+    </style>-->
+
+</resources>

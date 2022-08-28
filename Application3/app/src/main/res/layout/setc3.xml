@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/setc3LinearLayout1">
+
+	<RelativeLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="40dp">
+
+		<Button
+			android:text="清除"
+			android:textSize="16dp"
+			android:layout_width="60dp"
+			android:layout_height="34dp"
+			android:id="@+id/setc3Button1"
+			android:layout_centerVertical="true"
+			android:padding="0dp"/>
+
+		<Switch
+			android:text="监听"
+			android:textSize="16dp"
+			android:layout_gravity="right"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/setc3Switch1"
+			android:layout_alignParentRight="true"/>
+        <EditText
+            android:background="@null"
+            android:textSize="12dp"
+            android:hint="style,rgb,threshold"
+            android:layout_width="130dp"
+            
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_centerInParent="true"
+			android:id="@+id/setc3EditText1"/>
+
+	</RelativeLayout>
+
+
+     
+
+		<TextView
+	
+            android:textSize="15sp"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/setc3TextView1"/>
+        
+	
+
+	
+
+</LinearLayout>
+

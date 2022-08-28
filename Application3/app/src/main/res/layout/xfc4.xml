@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:id="@+id/xfc1"
+	android:background="@drawable/xfcbc"
+	android:alpha="1"
+	android:gravity="center">
+
+	<TextView
+		android:includeFontPadding="false"
+		android:text="◎"
+		android:layout_width="40dp"
+		android:layout_height="33dp"
+		android:textSize="15dp"
+		android:textColor="#11FB00"
+		android:id="@+id/xfcTextView5"
+		android:gravity="center"/>
+
+</LinearLayout>
+

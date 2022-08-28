@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:id="@+id/setc2">
+
+	<Switch
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp"
+		android:id="@+id/setc2s1"
+		android:text="开机启动"
+		android:layout_width="match_parent"
+		android:layout_height="25dp"/>
+
+	<Switch
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp"
+		android:id="@+id/setc2s2"
+		android:text="震动提示"
+		android:layout_width="match_parent"
+		android:layout_height="25dp"
+		android:layout_marginTop="10dp"/>
+
+	<EditText
+        android:clickable="true"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="5dp"
+		android:layout_width="match_parent"
+		android:inputType="time"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:textSize="12sp"
+		android:id="@+id/setc2et"
+		android:hint="(不填即不定时)xx:xx:xx"/>
+
+	<SeekBar
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="25dp"
+		android:layout_marginRight="25dp"
+		android:id="@+id/setc2sb"
+		android:max="1000"
+		android:layout_width="match_parent"
+		android:layout_height="20dp"/>
+
+	<TextView
+        android:layout_marginLeft="32dp"
+		android:layout_marginRight="32dp"
+		android:id="@+id/setc2tv"
+		android:gravity="left|center_horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="12sp"/>
+
+</LinearLayout>
+

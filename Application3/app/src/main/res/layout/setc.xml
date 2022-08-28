@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mycompany.application3.myvp
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/setcrg1"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_margin="1dp"
+            android:button="@null"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="选项"
+            android:layout_weight="1"
+            android:id="@+id/setcbt1"
+            android:checked="true"
+            android:background="@drawable/radio"/>
+
+        <RadioButton
+            android:layout_margin="1dp"
+            android:button="@null"
+            android:background="@drawable/radio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="设置"
+            android:layout_weight="1"
+            android:id="@+id/setcbt2"/>
+        <RadioButton
+            android:layout_margin="1dp"
+            android:button="@null"
+            android:background="@drawable/radio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="日志"
+            android:layout_weight="1"
+            android:id="@+id/setcbt3"/>
+
+        <RadioButton
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:background="@drawable/radio"
+            android:button="@null"
+            android:textSize="25dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="帮助"
+            android:layout_weight="1"
+            android:id="@+id/setcbt4"/>
+
+
+
+    </RadioGroup>
+
+    <androidx.viewpager2.widget.ViewPager2
+        
+   
+        android:layout_width="800px"
+        android:layout_height="580px"
+        android:id="@+id/setcll1"/>
+    
+    <LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+       
+        android:orientation="horizontal"
+        android:layout_height="120px"
+        android:layout_width="match_parent">
+        
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="0.85"
+        android:textSize="18dp"
+        android:layout_height="match_parent"
+        android:id="@+id/setcbt5"/>
+    <Button
+        android:text="+"
+        android:layout_width="0dp"
+        android:layout_weight="0.15"
+        android:layout_height="match_parent"
+        android:id="@+id/setcbt6"/>
+    </LinearLayout>
+</com.mycompany.application3.myvp>
+

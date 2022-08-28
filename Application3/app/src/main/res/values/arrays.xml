@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_string">
+        <item>自动</item>
+        <item> 1h</item>
+        <item> 2h</item>
+        <item> 不限</item>
+    </string-array>
+</resources>

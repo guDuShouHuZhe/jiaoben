@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:id="@+id/setc1">
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:gravity="center">
+
+		<CheckBox
+			android:layout_alignTop="@+id/setc1Spinner1"
+			android:layout_marginLeft="20dp"
+			android:text="快手极速版"
+			android:layout_width="wrap_content"
+			android:layout_height="35dp"
+			android:id="@+id/setcrb1"/>
+
+		<Spinner
+			android:spinnerMode="dropdown"
+			android:entries="@array/spinner_string"
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:id="@+id/setc1Spinner1"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="10dp"
+			android:layout_margin="10dp"/>
+
+		<CheckBox
+			android:layout_below="@+id/setcrb1"
+			android:layout_marginLeft="20dp"
+			android:layout_alignTop="@+id/setc1Spinner2"
+			android:id="@+id/setcrb2"
+			android:text="抖音极速版"
+			android:layout_width="wrap_content"
+			android:layout_height="35dp"/>
+
+		<Spinner
+			android:layout_alignParentRight="true"
+			android:layout_below="@+id/setc1Spinner1"
+			android:layout_marginRight="10dp"
+			android:spinnerMode="dropdown"
+			android:entries="@array/spinner_string"
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:id="@+id/setc1Spinner2"
+			android:layout_margin="10dp"/>
+
+		<CheckBox
+			android:layout_below="@+id/setcrb2"
+			android:layout_marginLeft="20dp"
+			android:layout_alignTop="@+id/setc1Spinner3"
+			android:id="@+id/setcrb3"
+			android:text="xx3极速版"
+			android:layout_width="wrap_content"
+			android:layout_height="35dp"/>
+
+		<Spinner
+			android:layout_alignParentRight="true"
+			android:layout_below="@+id/setc1Spinner2"
+			android:layout_marginRight="10dp"
+			android:spinnerMode="dropdown"
+			android:entries="@array/spinner_string"
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:id="@+id/setc1Spinner3"
+			android:layout_margin="10dp"/>
+
+		<CheckBox
+			android:layout_below="@+id/setcrb3"
+			android:layout_marginLeft="20dp"
+			android:layout_alignTop="@+id/setc1Spinner4"
+			android:id="@+id/setcrb4"
+			android:text="xx4极速版"
+			android:layout_width="wrap_content"
+			android:layout_height="35dp"/>
+
+		<Spinner
+			android:layout_alignParentRight="true"
+			android:layout_below="@+id/setc1Spinner3"
+			android:layout_marginRight="10dp"
+			android:spinnerMode="dropdown"
+			android:entries="@array/spinner_string"
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:id="@+id/setc1Spinner4"
+			android:layout_margin="10dp"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

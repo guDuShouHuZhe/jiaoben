@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "28.0.0"
+
+    defaultConfig {
+        applicationId "com.mycompany.application3"
+        minSdkVersion 21
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'cz.adaptech:tesseract4android:4.1.1'
+    //implementation 'cz.adaptech:tesserac4android:4.1.1'
+    implementation 'androidx.viewpager2:viewpager2:1.0.0-alpha02'
+    //compile 'androidx.viewpager2:viewpager2:1.0.0-alpha02'
+    implementation 'androidx.appcompat:appcompat:2.0.0'
+	//compile 'com.google.android.material:material:1.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}

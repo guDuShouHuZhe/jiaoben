@@ -70,6 +70,7 @@ import java.lang.ref.WeakReference;
 
 
 public class FloatWindowService extends Service {
+	int aass;
     private int touchx,touchy,touchrawx,touchrawy;
     //touchx定义大悬浮窗相对触摸坐标
     //touchrawx大悬浮触摸窗绝对坐标
